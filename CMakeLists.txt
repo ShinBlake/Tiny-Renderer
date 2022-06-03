@@ -4,4 +4,6 @@ project(SimpleRendering)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(SimpleRendering
-        main.cpp)
+        main.cpp
+
+        tgaimage.cpp)

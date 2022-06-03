@@ -1,0 +1,4 @@
+# ninja log v5
+0	466	6759285244134359	CMakeFiles/SimpleRendering.dir/main.cpp.obj	2bddb5a1f7f17235
+3	375	6759285458071585	CMakeFiles/SimpleRendering.dir/tgaimage.cpp.obj	24c9bed58f36d407
+376	459	6759285458959105	SimpleRendering.exe	2c16fcd90e043562
