@@ -61,17 +61,23 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_SimpleRendering: phony || CMakeFiles/SimpleRendering.dir
 
-build CMakeFiles/SimpleRendering.dir/main.cpp.obj: CXX_COMPILER__SimpleRendering_Debug C$:/Users/Blake/SimpleRendering/main.cpp || cmake_object_order_depends_target_SimpleRendering
-  DEP_FILE = CMakeFiles\SimpleRendering.dir\main.cpp.obj.d
+build CMakeFiles/SimpleRendering.dir/src/main.cpp.obj: CXX_COMPILER__SimpleRendering_Debug C$:/Users/Blake/SimpleRendering/src/main.cpp || cmake_object_order_depends_target_SimpleRendering
+  DEP_FILE = CMakeFiles\SimpleRendering.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimpleRendering.dir
-  OBJECT_FILE_DIR = CMakeFiles\SimpleRendering.dir
+  OBJECT_FILE_DIR = CMakeFiles\SimpleRendering.dir\src
 
-build CMakeFiles/SimpleRendering.dir/tgaimage.cpp.obj: CXX_COMPILER__SimpleRendering_Debug C$:/Users/Blake/SimpleRendering/tgaimage.cpp || cmake_object_order_depends_target_SimpleRendering
-  DEP_FILE = CMakeFiles\SimpleRendering.dir\tgaimage.cpp.obj.d
+build CMakeFiles/SimpleRendering.dir/src/tgaimage.cpp.obj: CXX_COMPILER__SimpleRendering_Debug C$:/Users/Blake/SimpleRendering/src/tgaimage.cpp || cmake_object_order_depends_target_SimpleRendering
+  DEP_FILE = CMakeFiles\SimpleRendering.dir\src\tgaimage.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimpleRendering.dir
-  OBJECT_FILE_DIR = CMakeFiles\SimpleRendering.dir
+  OBJECT_FILE_DIR = CMakeFiles\SimpleRendering.dir\src
+
+build CMakeFiles/SimpleRendering.dir/src/model.cpp.obj: CXX_COMPILER__SimpleRendering_Debug C$:/Users/Blake/SimpleRendering/src/model.cpp || cmake_object_order_depends_target_SimpleRendering
+  DEP_FILE = CMakeFiles\SimpleRendering.dir\src\model.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\SimpleRendering.dir
+  OBJECT_FILE_DIR = CMakeFiles\SimpleRendering.dir\src
 
 
 # =============================================================================
@@ -81,7 +87,7 @@ build CMakeFiles/SimpleRendering.dir/tgaimage.cpp.obj: CXX_COMPILER__SimpleRende
 #############################################
 # Link the executable SimpleRendering.exe
 
-build SimpleRendering.exe: CXX_EXECUTABLE_LINKER__SimpleRendering_Debug CMakeFiles/SimpleRendering.dir/main.cpp.obj CMakeFiles/SimpleRendering.dir/tgaimage.cpp.obj
+build SimpleRendering.exe: CXX_EXECUTABLE_LINKER__SimpleRendering_Debug CMakeFiles/SimpleRendering.dir/src/main.cpp.obj CMakeFiles/SimpleRendering.dir/src/tgaimage.cpp.obj CMakeFiles/SimpleRendering.dir/src/model.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SimpleRendering.dir
